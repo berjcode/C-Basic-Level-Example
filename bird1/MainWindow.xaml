@@ -1,0 +1,32 @@
+﻿<Window x:Class="bird1.MainWindow" 
+        MaxHeight="490" MaxWidth="525"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bird1"
+        mc:Ignorable="d"
+           Title="Flappy Bird " Height="490" Width="525">
+    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background ="LightBlue"  >
+
+        <Image Height="146" Width="200" Source="images/clouds.png" Canvas.Left="-42"   Canvas.Top="44" Tag="cloud" HorizontalAlignment="Center" VerticalAlignment="Top" ></Image>
+        <Image Height="145" Width="200" Source="images/clouds.png" Canvas.Left="329"   Canvas.Top="23" Tag="cloud" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.042,0.338" ></Image>
+
+        <Image Height="360" Width="66" Source="images/pipeBottom.png" Tag="obs1" Canvas.Left="20" Canvas.Top="242" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
+        <Image Height="360" Width="66" Source="images/pipeTop.png" Tag="obs1" Canvas.Left="19" Canvas.Top="-238" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.382,0.458"></Image>
+
+        <Image Height="360" Width="66" Source="images/pipeBottom.png" Tag="obs2" Canvas.Left="154" Canvas.Top="282" HorizontalAlignment="Left" VerticalAlignment="Top"></Image>
+        <Image Height="360" Width="66" Source="images/pipeTop.png" Tag="obs2" Canvas.Left="154" Canvas.Top="-181" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.382,0.458"></Image>
+
+        <Image Height="360" Width="66" Source="images/pipeBottom.png" Tag="obs3" Canvas.Left="442" Canvas.Top="300" HorizontalAlignment="Left" VerticalAlignment="Top"></Image>
+        <Image Height="360" Width="66" Source="images/pipeTop.png" Tag="obs3" Canvas.Left="438" Canvas.Top="-180" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.382,0.458"></Image>
+        <Image Height="360" Width="66" Source="images/pipeBottom.png" Tag="obs4" Canvas.Left="300" Canvas.Top="237" HorizontalAlignment="Left" ></Image>
+        <Image Height="360" Width="66" Source="images/pipeTop.png" Tag="obs4" Canvas.Left="300" Canvas.Top="-238" HorizontalAlignment="Left" ></Image>
+
+        <Image Name="FlappyBird" Height="30" Width="30" Source="images/flappy.png" Stretch="Fill" Canvas.Top="207" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-1" RenderTransformOrigin="0.489,1.621"/>
+        <Label Name="TextScore" FontSize="22" FontWeight="ExtraBold" Content="Score :0" />
+        <Image Height="145" Width="200" Source="/images/clouds.png" Canvas.Left="154"   Canvas.Top="117" Tag="cloud" HorizontalAlignment="Left" VerticalAlignment="Top" />
+    </Canvas>
+
+
+</Window>

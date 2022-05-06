@@ -1,11 +1,11 @@
-Temel Seviye için yapmış olduğum bir uygulamadır. Youtube üzerinden yabancı bir kaynaktan öğrenmiş bulunmaktayım.
 
+It is an application for the Basic Level. It has been learned from a source on Youtube.
 
+To keep improving the time.
 
-Yavaş Yavaş Üzerine eklemeler yapacağım.
+The first thing I did was to lock the form frame.
 
-İlk yaptığım form cercevesini kitlemek oldu.
-Yeni  level tasarımı yapmış bulunmaktayım.
+I have made a new level design.
 
-
-devam gelecek....
+My web site :
+www.teknolojiyolcusu.com
